@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "merge(int*, int*, int, int, int):MergeSort.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "sort[t]">
+            </PersistentString>
+            <PersistentString
+               value = "a[t]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "quickSort(int*, int, int):BaekJoon2751.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "a[key]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "merge(std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;*, std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;*, int, int, int):BaekJoon1181.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "sort[k]">
+            </PersistentString>
+            <PersistentString
+               value = "str[i]">
+            </PersistentString>
+            <PersistentString
+               value = "str[l]">
+            </PersistentString>
+            <PersistentString
+               value = "str[j]">
+            </PersistentString>
+            <PersistentString
+               value = "sort[l]">
+            </PersistentString>
+            <PersistentString
+               value = "str[i+1]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "quickSort(int*, int, int):QuickSort.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "a[10]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "quickSort(int*, int, int):BaekJoon2750.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "a[i]">
+            </PersistentString>
+            <PersistentString
+               value = "a[j]">
+            </PersistentString>
+            <PersistentString
+               value = "a[key]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "main:InsertionSort.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "a[-1]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "main:SelectionSort.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "main:BaekJoon1181.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "str[i]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
