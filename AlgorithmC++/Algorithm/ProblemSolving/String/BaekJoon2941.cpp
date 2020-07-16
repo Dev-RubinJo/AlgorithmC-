@@ -1,10 +1,9 @@
 //
-//  BaekJoon0000.cpp
+//  BaekJoon2941.cpp
 //  Algorithm
 //
-//  Created by YooBin Jo on 2020/07/15.
+//  Created by YooBin Jo on 2020/07/19.
 //  Copyright © 2020 YooBin Jo. All rights reserved.
 //
 
 #include <stdio.h>
-//adsf
