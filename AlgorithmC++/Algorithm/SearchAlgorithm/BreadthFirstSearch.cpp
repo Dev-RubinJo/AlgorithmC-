@@ -1,5 +1,5 @@
 //
-//  BreathFirstSearch.cpp
+//  BreadthFirstSearch.cpp
 //  Algorithm
 //
 //  Created by YooBin Jo on 2020/07/17.

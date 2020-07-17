@@ -9,66 +9,60 @@
 #include <stdio.h>
 #include <iostream>
 
-void merge(int sort[], int a[], int m, int middle, int n) {
+using namespace std;
+
+void merge(int a[], int sorted[], int m, int middle, int n) {
     int i = m;
     int j = middle + 1;
     int k = m;
-    // 작은 순서대로 배열에 삽입
+    
     while(i <= middle && j <= n) {
-        if(a[i] <= a[j]) {
-            sort[k] = a[i];
+        if(a[i] < a[j]) {
+            sorted[k] = a[i];
             i++;
         } else {
-            sort[k] = a[j];
+            sorted[k] = a[j];
             j++;
         }
         k++;
     }
-    // 남은 데이터도 삽입
+    
     if(i > middle) {
-        for(int t = j; t <= n; t++) {
-            sort[k] = a[t];
+        for(int l = j; l <= n; l++) {
+            sorted[k] = a[l];
             k++;
         }
     } else {
-        for(int t = i; t <= middle; t++) {
-            sort[k] = a[t];
+        for(int l = i; l <= middle; l++) {
+            sorted[k] = a[l];
             k++;
         }
     }
-    // 정렬된 배열 삽입
-    for(int t = m; t <= n; t++) {
-        a[t] = sort[t];
-        std::cout << sort[t] << " ";
+    for(int l = m; l <= n; l++) {
+        a[l] = sorted[l];
     }
-    std::cout << std::endl;
 }
 
-void mergeSort(int sort[], int a[], int m, int n) {
-    // 크기가 1보다 큰 경우
-    if (m < n) {
+void mergeSort(int a[], int sorted[], int m, int n) {
+    if(m < n) {
         int middle = (m + n) / 2;
-        mergeSort(sort, a, m, middle);
-        mergeSort(sort, a, middle + 1, n);
-        merge(sort, a, m, middle, n);
+        mergeSort(a, sorted, m, middle);
+        mergeSort(a, sorted, middle + 1, n);
+        merge(a, sorted, m, middle, n);
     }
 }
 
 int main() {
+    int a[10] = {7, 6, 5, 8, 3, 5, 9, 1, 4, 2};
+    int sorted[10] = {0, };
     
-    int a[9] = {7, 6, 5, 8, 3, 5, 9, 1, 2};
-    int sorted[9];
-    
-    mergeSort(sorted, a, 0, 8);
-    
-    for(int i = 0; i < 9; i++) {
-        std::cout << a[i] << " ";
+    mergeSort(a, sorted, 0, 9);
+    for(int i = 0; i < 10; i++) {
+        cout << a[i] << endl;
     }
-    std::cout << std::endl;
     
     return 0;
 }
-
 // MARK: - 병합정렬 설명
 /*
  

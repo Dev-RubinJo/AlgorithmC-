@@ -12,25 +12,24 @@
 using namespace std;
 
 int main() {
-    int num = 9;
+    
     int a[9] = {7, 6, 5, 8, 3, 5, 9, 1, 6};
     
     // max 힙 구조로 만들기
-    for(int i = 1; i < num; i++) {
-        int c = i;
+    for(int i = 1; i < 9; i++) {
+        int now = i;
         do {
-            int root = (c - 1) / 2;
-            if(a[root] < a[c]) {
+            int root = (now - 1) / 2;
+            if(a[root] < a[now]) {
                 int temp = a[root];
-                a[root] = a[c];
-                a[c] = temp;
+                a[root] = a[now];
+                a[now] = temp;
             }
-            c = root;
-        } while(c != 0);
+            now = root;
+        } while(now != 0);
     }
     
-    // 크기를 줄여가며 반복적으로 힙을 구성
-    for(int i = num - 1; i >= 0; i--) {
+    for(int i = 9 - 1; i >= 0; i--) {
         int temp = a[0];
         a[0] = a[i];
         a[i] = temp;
@@ -52,13 +51,60 @@ int main() {
         } while(c < i);
     }
     
-    for(int i = 0; i < num; i++) {
-        cout << a[i] << " ";
+    for(int i = 0; i < 9; i++) {
+        cout << a[i] << endl;
     }
-    cout << endl;
-    
     return 0;
 }
+
+//int main() {
+//    int num = 9;
+//    int a[9] = {7, 6, 5, 8, 3, 5, 9, 1, 6};
+//
+//    // max 힙 구조로 만들기
+//    for(int i = 1; i < num; i++) {
+//        int c = i;
+//        do {
+//            int root = (c - 1) / 2;
+//            if(a[root] < a[c]) {
+//                int temp = a[root];
+//                a[root] = a[c];
+//                a[c] = temp;
+//            }
+//            c = root;
+//        } while(c != 0);
+//    }
+//
+//    // 크기를 줄여가며 반복적으로 힙을 구성
+//    for(int i = num - 1; i >= 0; i--) {
+//        int temp = a[0];
+//        a[0] = a[i];
+//        a[i] = temp;
+//        int root = 0;
+//        int c = 1;
+//        do {
+//            c = 2 * root + 1;
+//            // 자식중에 더 큰값을 찾기
+//            if(a[c] < a[c + 1] && c < i - 1) {
+//                c++;
+//            }
+//            // 루트보다 자식이 더 크다면 교환
+//            if (a[root] < a[c] && c < i) {
+//                int temp = a[root];
+//                a[root] = a[c];
+//                a[c] = temp;
+//            }
+//            root = c;
+//        } while(c < i);
+//    }
+//
+//    for(int i = 0; i < num; i++) {
+//        cout << a[i] << " ";
+//    }
+//    cout << endl;
+//
+//    return 0;
+//}
 
 // MARK: - 힙정렬 설명
 /*
