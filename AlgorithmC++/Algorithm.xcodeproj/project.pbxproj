@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4374463F24C429AA002B03C9 /* BaekJoon2959.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4374463E24C429AA002B03C9 /* BaekJoon2959.cpp */; };
+		4374464424C46564002B03C9 /* UnionFind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4374464324C46564002B03C9 /* UnionFind.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +36,8 @@
 		431AD73624B61E3B00F1C3EB /* SelectionSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SelectionSort.cpp; sourceTree = "<group>"; };
 		43587E4024B974CA008B10A7 /* BaekJoon2884.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BaekJoon2884.cpp; sourceTree = "<group>"; };
 		4374463E24C429AA002B03C9 /* BaekJoon2959.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaekJoon2959.cpp; sourceTree = "<group>"; };
+		4374464024C43882002B03C9 /* BaekJoon10867.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaekJoon10867.cpp; sourceTree = "<group>"; };
+		4374464324C46564002B03C9 /* UnionFind.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnionFind.cpp; sourceTree = "<group>"; };
 		4395BE3324C015E100755E63 /* BaekJoon10808.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BaekJoon10808.cpp; sourceTree = "<group>"; };
 		439FDF4624B8AB2900B77485 /* BaekJoon2752.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BaekJoon2752.cpp; sourceTree = "<group>"; };
 		439FDF4824B8AD5300B77485 /* BaekJoon2750.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BaekJoon2750.cpp; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				439FDF4524B8AAB600B77485 /* ProblemSolving */,
 				431AD73224B61A5300F1C3EB /* SortAlgorithm */,
 				43ADC2F524C0B7A100C15DA5 /* SearchAlgorithm */,
+				4374464224C46545002B03C9 /* UnionFindAlgorithm */,
 				431AD72824B61A1200F1C3EB /* main.cpp */,
 			);
 			path = Algorithm;
@@ -147,6 +150,14 @@
 				43DC51EF24C3407800309A47 /* BaekJoon2399.cpp */,
 			);
 			path = BaekJoonWarmUp;
+			sourceTree = "<group>";
+		};
+		4374464224C46545002B03C9 /* UnionFindAlgorithm */ = {
+			isa = PBXGroup;
+			children = (
+				4374464324C46564002B03C9 /* UnionFind.cpp */,
+			);
+			path = UnionFindAlgorithm;
 			sourceTree = "<group>";
 		};
 		439FDF4524B8AAB600B77485 /* ProblemSolving */ = {
@@ -192,6 +203,7 @@
 				43A36AFA24BDAC1D00AC127C /* BaekJoon1431.cpp */,
 				43A2285724BF316400531B47 /* BaekJoon1015.cpp */,
 				43A2285924BF523A00531B47 /* BaekJoon5648.cpp */,
+				4374464024C43882002B03C9 /* BaekJoon10867.cpp */,
 				43A3199724C2015A0069523E /* BaekJoon11004.cpp */,
 			);
 			path = Sort;
@@ -271,7 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4374463F24C429AA002B03C9 /* BaekJoon2959.cpp in Sources */,
+				4374464424C46564002B03C9 /* UnionFind.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
