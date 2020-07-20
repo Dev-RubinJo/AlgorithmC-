@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4374464424C46564002B03C9 /* UnionFind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4374464324C46564002B03C9 /* UnionFind.cpp */; };
+		43F454FE24C5FB8100B61F34 /* BaekJoon1926.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43F454FD24C5FB8100B61F34 /* BaekJoon1926.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -61,6 +61,8 @@
 		43DC51EF24C3407800309A47 /* BaekJoon2399.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BaekJoon2399.cpp; sourceTree = "<group>"; };
 		43DC51F224C3491100309A47 /* BaekJoon2178.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BaekJoon2178.cpp; sourceTree = "<group>"; };
 		43DC51F524C354F100309A47 /* BaekJoon2941.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BaekJoon2941.cpp; sourceTree = "<group>"; };
+		43F454FB24C5F59400B61F34 /* BreadthFirstSearch2nd.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BreadthFirstSearch2nd.cpp; sourceTree = "<group>"; };
+		43F454FD24C5FB8100B61F34 /* BaekJoon1926.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BaekJoon1926.cpp; sourceTree = "<group>"; };
 		43FD8AE724C1D3D100EDB423 /* DepthFirstSearch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DepthFirstSearch.cpp; sourceTree = "<group>"; };
 		43FD8AEC24C1F60C00EDB423 /* BaekJoon1260.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BaekJoon1260.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -184,6 +186,7 @@
 			children = (
 				43ADC2F624C0B7CF00C15DA5 /* BreadthFirstSearch.cpp */,
 				43FD8AE724C1D3D100EDB423 /* DepthFirstSearch.cpp */,
+				43F454FB24C5F59400B61F34 /* BreadthFirstSearch2nd.cpp */,
 			);
 			path = SearchAlgorithm;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 			children = (
 				43FD8AEC24C1F60C00EDB423 /* BaekJoon1260.cpp */,
 				43DC51F224C3491100309A47 /* BaekJoon2178.cpp */,
+				43F454FD24C5FB8100B61F34 /* BaekJoon1926.cpp */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -283,7 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4374464424C46564002B03C9 /* UnionFind.cpp in Sources */,
+				43F454FE24C5FB8100B61F34 /* BaekJoon1926.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
