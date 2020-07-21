@@ -65,8 +65,38 @@ int main(void) {
 
     for(int i = 0; i < count; i++) {
         cout << a[i] << " ";
-    }    
+    }
     cout << endl;
 
     return 0;
 }
+
+// 계수정렬 풀이
+/*
+#include <iostream>
+
+using namespace std;
+
+int main(void) {
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+    
+    int n = 0;
+    int a[2002] = {0, };
+    cin >> n;
+    for(int i = 0; i < n; i++) {
+        int temp;
+        cin >> temp;
+        a[temp + 1000] += 1;
+    }
+    
+    for(int i = 0; i < 2002; i++) {
+        if(a[i] > 0) {
+            cout << i - 1000 << " ";
+        }
+    }
+    
+    return 0;
+}
+*/

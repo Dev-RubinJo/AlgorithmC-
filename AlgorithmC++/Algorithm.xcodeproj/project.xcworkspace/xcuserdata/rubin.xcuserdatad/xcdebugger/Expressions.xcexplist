@@ -45,18 +45,18 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "bfs(int (*) [101], int (*) [101], int*, int*, int, int, int, int):BaekJoon2178.cpp">
-         <PersistentStrings>
-            <PersistentString
-               value = "visited[new_x][new_y]">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
          contextName = "main:BaekJoon1181.cpp">
          <PersistentStrings>
             <PersistentString
                value = "str[i]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "bfs(int (*) [101], int (*) [101], int*, int*, int, int, int, int):BaekJoon2178.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "visited[new_x][new_y]">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -78,10 +78,52 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "bfs():BaekJoon7576.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "q">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "bfs():BaekJoon4179.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "main:BaekJoon4179.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "countMove">
+            </PersistentString>
+            <PersistentString
+               value = "miro">
+            </PersistentString>
+            <PersistentString
+               value = "fireVisited">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "quickSort(int*, int, int):BaekJoon2751.cpp">
          <PersistentStrings>
             <PersistentString
                value = "a[key]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "main:BaekJoon7576.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "visited[1][0]">
+            </PersistentString>
+            <PersistentString
+               value = "visited[0][0]">
+            </PersistentString>
+            <PersistentString
+               value = "visited[0][1]">
+            </PersistentString>
+            <PersistentString
+               value = "visited[1][1]">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -103,6 +145,14 @@
       </ContextState>
       <ContextState
          contextName = "main:SelectionSort.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "bfsForFire():BaekJoon4179.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "fireVisited[1][2]">
+            </PersistentString>
+         </PersistentStrings>
       </ContextState>
       <ContextState
          contextName = "quickSort(int*, int, int):BaekJoon2750.cpp">
