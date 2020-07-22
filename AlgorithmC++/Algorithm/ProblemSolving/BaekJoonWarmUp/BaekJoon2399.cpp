@@ -24,7 +24,13 @@ int main() {
     
     for(int i = 0; i < n; i++) {
         for(int j = 0; j < n; j++) {
-            ans += abs(x[i] - x[j]);
+            int temp = x[i] - x[j];
+            if(temp < 0) {
+                ans += (temp * -1);
+            } else {
+                ans += temp;
+            }
+            
         }
     }
     

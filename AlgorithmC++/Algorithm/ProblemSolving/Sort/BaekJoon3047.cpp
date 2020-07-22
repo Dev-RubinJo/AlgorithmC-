@@ -19,12 +19,7 @@ int main() {
     for(int i = 0; i < 3; i++) {
         cin >> a[i];
     }
-    for(int i = 0; i < 3; i++) {
-        char temp;
-        cin >> temp;
-        c[i] = temp - 'A';
-    }
-    
+
     for(int i = 0; i < 3; i++) {
         for(int j = 0; j < 2 - i; j++) {
             if(a[j] > a[j + 1]) {
@@ -33,6 +28,12 @@ int main() {
                 a[j + 1] = temp;
             }
         }
+    }
+
+    for(int i = 0; i < 3; i++) {
+        char temp;
+        cin >> temp;
+        c[i] = temp - 'A';
     }
     
     for(int i = 0; i < 3; i++) {

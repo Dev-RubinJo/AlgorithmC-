@@ -53,12 +53,7 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "bfs(int (*) [101], int (*) [101], int*, int*, int, int, int, int):BaekJoon2178.cpp">
-         <PersistentStrings>
-            <PersistentString
-               value = "visited[new_x][new_y]">
-            </PersistentString>
-         </PersistentStrings>
+         contextName = "bfs():BaekJoon4179.cpp">
       </ContextState>
       <ContextState
          contextName = "quickSort(int*, int, int):BaekJoon2959.cpp">
@@ -78,15 +73,20 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "bfs(int (*) [101], int (*) [101], int*, int*, int, int, int, int):BaekJoon2178.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "visited[new_x][new_y]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "bfs():BaekJoon7576.cpp">
          <PersistentStrings>
             <PersistentString
                value = "q">
             </PersistentString>
          </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "bfs():BaekJoon4179.cpp">
       </ContextState>
       <ContextState
          contextName = "main:BaekJoon4179.cpp">
@@ -165,6 +165,14 @@
             </PersistentString>
             <PersistentString
                value = "a[key]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "main:DepthFirstSearch2nd.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "visited">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
