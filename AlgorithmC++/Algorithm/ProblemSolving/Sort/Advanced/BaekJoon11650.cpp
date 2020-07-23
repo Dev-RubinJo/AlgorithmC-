@@ -36,3 +36,7 @@ int main() {
     return 0;
 }
 // 이 문제도 벡터를 알아야 쉽게 풀 수 있는 문제
+bool compare(pair<int, int> a, pair<int, int> b) {
+    if(a.first == b.first) return a.second < b.second;
+    return a.first < b.first;
+}
