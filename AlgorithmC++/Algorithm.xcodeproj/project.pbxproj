@@ -6,6 +6,10 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		43B64D6A24CB354A008FB27A /* BaekJoon1205.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43B64D6924CB354A008FB27A /* BaekJoon1205.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		431AD72324B61A1200F1C3EB /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -62,6 +66,7 @@
 		43B64D6224CAAE68008FB27A /* BaekJoon10825.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BaekJoon10825.cpp; sourceTree = "<group>"; };
 		43B64D6524CADDF5008FB27A /* BaekJoon1059.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BaekJoon1059.cpp; sourceTree = "<group>"; };
 		43B64D6724CB21CB008FB27A /* BaekJoon1092.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BaekJoon1092.cpp; sourceTree = "<group>"; };
+		43B64D6924CB354A008FB27A /* BaekJoon1205.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BaekJoon1205.cpp; sourceTree = "<group>"; };
 		43C4DBA624B8BD340003C8AE /* MergeSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MergeSort.cpp; sourceTree = "<group>"; };
 		43C4DBA824B8D0280003C8AE /* SortSTL.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SortSTL.cpp; sourceTree = "<group>"; };
 		43DC51EA24C3375B00309A47 /* temp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = temp.cpp; sourceTree = "<group>"; };
@@ -228,6 +233,7 @@
 				43B64D6224CAAE68008FB27A /* BaekJoon10825.cpp */,
 				43B64D6524CADDF5008FB27A /* BaekJoon1059.cpp */,
 				43B64D6724CB21CB008FB27A /* BaekJoon1092.cpp */,
+				43B64D6924CB354A008FB27A /* BaekJoon1205.cpp */,
 			);
 			path = Sort;
 			sourceTree = "<group>";
@@ -309,6 +315,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43B64D6A24CB354A008FB27A /* BaekJoon1205.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
