@@ -6,10 +6,6 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		43B64D6824CB21CB008FB27A /* BaekJoon1092.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43B64D6724CB21CB008FB27A /* BaekJoon1092.cpp */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		431AD72324B61A1200F1C3EB /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -313,7 +309,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43B64D6824CB21CB008FB27A /* BaekJoon1092.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
