@@ -6,6 +6,11 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		43400AC824D467AD00F2E6DF /* BaekJoon2230.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43400AC724D467AD00F2E6DF /* BaekJoon2230.cpp */; };
+		43400ACA24D467AD00F2E6DF /* BaekJoon2774.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43400AC924D467AD00F2E6DF /* BaekJoon2774.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		431AD72324B61A1200F1C3EB /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -30,6 +35,13 @@
 		431AD73324B61A7100F1C3EB /* BubbleSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BubbleSort.cpp; sourceTree = "<group>"; };
 		431AD73524B61AE200F1C3EB /* Introduce.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Introduce.md; sourceTree = "<group>"; };
 		431AD73624B61E3B00F1C3EB /* SelectionSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SelectionSort.cpp; sourceTree = "<group>"; };
+		4320022624D2856B00664D58 /* BaekJoon1546.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaekJoon1546.cpp; sourceTree = "<group>"; };
+		43400AB924D41DEB00F2E6DF /* BaekJoon1296.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BaekJoon1296.cpp; sourceTree = "<group>"; };
+		43400ABB24D4490600F2E6DF /* BaekJoon15702.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BaekJoon15702.cpp; sourceTree = "<group>"; };
+		43400ABD24D44BEC00F2E6DF /* BaekJoon16435.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BaekJoon16435.cpp; sourceTree = "<group>"; };
+		43400AC224D44FA300F2E6DF /* BaekJoon15237.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BaekJoon15237.cpp; sourceTree = "<group>"; };
+		43400AC724D467AD00F2E6DF /* BaekJoon2230.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BaekJoon2230.cpp; sourceTree = "<group>"; };
+		43400AC924D467AD00F2E6DF /* BaekJoon2774.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaekJoon2774.cpp; sourceTree = "<group>"; };
 		4351A49124CC8083006AC896 /* Fibonacci.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Fibonacci.cpp; sourceTree = "<group>"; };
 		4351A49424CC8A8A006AC896 /* BaekJoon11767.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BaekJoon11767.cpp; sourceTree = "<group>"; };
 		4351A49624CC8F1B006AC896 /* BaekJoon11726.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BaekJoon11726.cpp; sourceTree = "<group>"; };
@@ -185,7 +197,9 @@
 		43587E4224B976BE008B10A7 /* BaekJoonWarmUp */ = {
 			isa = PBXGroup;
 			children = (
+				4320022624D2856B00664D58 /* BaekJoon1546.cpp */,
 				43587E4024B974CA008B10A7 /* BaekJoon2884.cpp */,
+				43400AC924D467AD00F2E6DF /* BaekJoon2774.cpp */,
 				4395BE3324C015E100755E63 /* BaekJoon10808.cpp */,
 				43DC51EF24C3407800309A47 /* BaekJoon2399.cpp */,
 			);
@@ -292,6 +306,11 @@
 				43B64D6524CADDF5008FB27A /* BaekJoon1059.cpp */,
 				43B64D6724CB21CB008FB27A /* BaekJoon1092.cpp */,
 				43B64D6924CB354A008FB27A /* BaekJoon1205.cpp */,
+				43400AB924D41DEB00F2E6DF /* BaekJoon1296.cpp */,
+				43400ABB24D4490600F2E6DF /* BaekJoon15702.cpp */,
+				43400ABD24D44BEC00F2E6DF /* BaekJoon16435.cpp */,
+				43400AC224D44FA300F2E6DF /* BaekJoon15237.cpp */,
+				43400AC724D467AD00F2E6DF /* BaekJoon2230.cpp */,
 			);
 			path = Sort;
 			sourceTree = "<group>";
@@ -373,6 +392,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43400ACA24D467AD00F2E6DF /* BaekJoon2774.cpp in Sources */,
+				43400AC824D467AD00F2E6DF /* BaekJoon2230.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
