@@ -190,5 +190,13 @@
             </PersistentString>
          </PersistentStrings>
       </ContextState>
+      <ContextState
+         contextName = "solution(std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;, long long):&#x1106;&#x116e;&#x110c;&#x1175;&#x110b;&#x1174; &#x1106;&#x1165;&#x11a8;&#x1107;&#x1161;&#x11bc;&#x1105;&#x1161;&#x110b;&#x1175;&#x1107;&#x1173;.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "food_times[i]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
    </ContextStates>
 </VariablesViewState>
