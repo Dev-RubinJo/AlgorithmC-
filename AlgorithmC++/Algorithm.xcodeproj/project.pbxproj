@@ -6,10 +6,6 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		436D1F4224E43A7C0047CD71 /* ReverseInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 436D1F3D24E409B50047CD71 /* ReverseInteger.cpp */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		431AD72324B61A1200F1C3EB /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -35,6 +31,7 @@
 		431AD73524B61AE200F1C3EB /* Introduce.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Introduce.md; sourceTree = "<group>"; };
 		431AD73624B61E3B00F1C3EB /* SelectionSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SelectionSort.cpp; sourceTree = "<group>"; };
 		4320022624D2856B00664D58 /* BaekJoon1546.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaekJoon1546.cpp; sourceTree = "<group>"; };
+		4328244224EBAAAD007B87E5 /* BaekJoon1744.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BaekJoon1744.cpp; sourceTree = "<group>"; };
 		4334AA1524DD971100B5949E /* BaekJoon1076.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BaekJoon1076.cpp; sourceTree = "<group>"; };
 		4334AA1724DDA0A700B5949E /* BaekJoon1302.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BaekJoon1302.cpp; sourceTree = "<group>"; };
 		4334AA1924DDA53000B5949E /* BaekJoon1764.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BaekJoon1764.cpp; sourceTree = "<group>"; };
@@ -296,6 +293,7 @@
 				43A9B66324E19374004EB209 /* BaekJoon1439.cpp */,
 				43A9B66524E196BB004EB209 /* BaekJoon1931.cpp */,
 				43740EA324E2C84E00AF27C8 /* 무지의 먹방라이브.cpp */,
+				4328244224EBAAAD007B87E5 /* BaekJoon1744.cpp */,
 			);
 			path = Greedy;
 			sourceTree = "<group>";
@@ -474,7 +472,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				436D1F4224E43A7C0047CD71 /* ReverseInteger.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
