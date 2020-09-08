@@ -39,7 +39,7 @@ int main(void) {
     long long fibo[10000] = {0, };
 //    cout << fibonacci(fibo, 100);
 
-    cout << fibonacciFor(6);
+    cout << fibonacciFor(90);
     
     return 0;
 }
