@@ -7,39 +7,6 @@
 //
 // 어려움
 
-//#include <stdio.h>
-//#include <iostream>
-
-//using namespace std;
-
-//int main() {
-//    ios_base::sync_with_stdio(false);
-//    cin.tie(NULL);
-//    cout.tie(NULL);
-//
-//    int n, ans = 0;
-//    int a[500000];
-//
-//    cin >> n;
-//    for(int i = 0; i < n; i++) {
-//        cin >> a[i];
-//    }
-//    for(int i = 0; i < n; i++) {
-//        for(int j = 0; j < n - i - 1; j++) {
-//            if(a[j] > a[j + 1]) {
-//                int temp = a[j];
-//                a[j] = a[j + 1];
-//                a[j + 1] = temp;
-//                ans++;
-//            }
-//        }
-//    }
-//
-//    cout << ans;
-//
-//    return 0;
-//}
-
 #include <stdio.h>
 #include <iostream>
 
@@ -54,22 +21,6 @@ void merge(int m, int middle, int n) {
     int j = middle + 1;
     int k = m;
     int cnt = 0;
-    
-//    while(i <= middle || j <= n) {
-//        if(i > middle) {
-//            tmp[k++] = v[j++];
-//            cnt++;
-//        } else if(j > n) {
-//            tmp[k++] = v[i++];
-//            ans += (long long)cnt;
-//        } else if(v[i] <= v[j]) {
-//            tmp[k++] = v[i++];
-//            ans += (long long)cnt;
-//        } else {
-//            tmp[k++] = v[j++];
-//            cnt++;
-//        }
-//    }
     
     while(i <= middle && j <= n) {
         if(v[i] <= v[j])
