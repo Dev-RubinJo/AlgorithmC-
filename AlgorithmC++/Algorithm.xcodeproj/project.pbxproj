@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4319991724F2B5C200B9C04B /* Fibonacci.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4351A49124CC8083006AC896 /* Fibonacci.cpp */; };
+		437E02B7251F202300252126 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 431AD72824B61A1200F1C3EB /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -480,7 +480,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4319991724F2B5C200B9C04B /* Fibonacci.cpp in Sources */,
+				437E02B7251F202300252126 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

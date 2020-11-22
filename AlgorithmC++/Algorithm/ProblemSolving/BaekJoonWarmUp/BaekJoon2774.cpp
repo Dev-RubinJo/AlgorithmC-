@@ -33,9 +33,7 @@ int main(void) {
                 ans += 1;
             }
         }
-        cout << ans << endl;
+        cout << ans << '\n';
     }
-    
-
     return 0;
 }
