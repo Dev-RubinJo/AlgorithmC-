@@ -59,7 +59,7 @@ int main(int argc, const char * argv[]) {
 }
 
 // MARK: - 퀵정렬 설명
-/*
+/**
  시간복잡도는 O(NlogN)
  퀵정렬은 기준값이 있는데 이를 Pivot이라고 한다. 이 pivot값을 기준으로 앞뒤로 나눠서 정렬한다.
  보통 처음에는 제일 앞에 있는 값을 pivot으로 설정(함수 인자에서 Start)

@@ -6,10 +6,6 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		437E02B7251F202300252126 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 431AD72824B61A1200F1C3EB /* main.cpp */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		431AD72324B61A1200F1C3EB /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -171,6 +167,7 @@
 		431AD72724B61A1200F1C3EB /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				438CF5A2259ABF60004DFEA6 /* New Group */,
 				430FB7DC24BB142A004FCD56 /* DataStructure */,
 				431AD73524B61AE200F1C3EB /* Introduce.md */,
 				439FDF4524B8AAB600B77485 /* ProblemSolving */,
@@ -281,6 +278,13 @@
 				4374464324C46564002B03C9 /* UnionFind.cpp */,
 			);
 			path = UnionFindAlgorithm;
+			sourceTree = "<group>";
+		};
+		438CF5A2259ABF60004DFEA6 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		439766BF24CF05620012FEEA /* GreedyAlgorithm */ = {
@@ -480,7 +484,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				437E02B7251F202300252126 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
