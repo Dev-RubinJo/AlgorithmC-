@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		435E7D6025B5CE3A00E3E80D /* 10815-1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 435E7D5F25B5CE3A00E3E80D /* 10815-1.cpp */; };
+		4384BCE425BB0EEB00D8D4D6 /* 1769-1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4384BCE325BB0EEB00D8D4D6 /* 1769-1.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -72,6 +72,7 @@
 		4374463E24C429AA002B03C9 /* BaekJoon2959.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaekJoon2959.cpp; sourceTree = "<group>"; };
 		4374464024C43882002B03C9 /* BaekJoon10867.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaekJoon10867.cpp; sourceTree = "<group>"; };
 		4374464324C46564002B03C9 /* UnionFind.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnionFind.cpp; sourceTree = "<group>"; };
+		4384BCE325BB0EEB00D8D4D6 /* 1769-1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1769-1.cpp"; sourceTree = "<group>"; };
 		43918DEB259D589C002C86FE /* Array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Array.cpp; sourceTree = "<group>"; };
 		4395BE3324C015E100755E63 /* BaekJoon10808.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BaekJoon10808.cpp; sourceTree = "<group>"; };
 		4396890324C8327600BA639A /* BaekJoon11651.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BaekJoon11651.cpp; sourceTree = "<group>"; };
@@ -288,6 +289,14 @@
 			path = UnionFindAlgorithm;
 			sourceTree = "<group>";
 		};
+		4384BCE225BB0ED400D8D4D6 /* BaekJoon */ = {
+			isa = PBXGroup;
+			children = (
+				4384BCE325BB0EEB00D8D4D6 /* 1769-1.cpp */,
+			);
+			path = BaekJoon;
+			sourceTree = "<group>";
+		};
 		438CF5A2259ABF60004DFEA6 /* BaaaaaaaarkingDog */ = {
 			isa = PBXGroup;
 			children = (
@@ -340,6 +349,7 @@
 		439FDF4524B8AAB600B77485 /* ProblemSolving */ = {
 			isa = PBXGroup;
 			children = (
+				4384BCE225BB0ED400D8D4D6 /* BaekJoon */,
 				43655F6824E00C4C00DB0696 /* 이것이 취업을 위한 코딩테스트다 */,
 				436ADED924D7CF6000FA304E /* LeetCode */,
 				4397720A24CD665E005EDDB7 /* SWExpertAcademy */,
@@ -491,7 +501,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				435E7D6025B5CE3A00E3E80D /* 10815-1.cpp in Sources */,
+				4384BCE425BB0EEB00D8D4D6 /* 1769-1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
