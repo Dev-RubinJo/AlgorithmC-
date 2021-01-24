@@ -27,11 +27,7 @@ int main(void) {
         count += 1;
     }
     cout << count << '\n';
-    if (stoi(str) % 3 == 0) {
-        cout << "YES";
-    } else {
-        cout << "NO";
-    }
-    
+    cout << ((stoi(str) % 3 == 0) ? "YES" : "NO");
+
     return 0;
 }
