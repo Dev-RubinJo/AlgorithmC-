@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		43304A5F25C2F13A0008C9C8 /* 2178-1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43304A5E25C2F13A0008C9C8 /* 2178-1.cpp */; };
+		43304A6225C2FA240008C9C8 /* 1406-1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43304A6125C2FA240008C9C8 /* 1406-1.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +39,7 @@
 		4320022624D2856B00664D58 /* BaekJoon1546.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaekJoon1546.cpp; sourceTree = "<group>"; };
 		4328244224EBAAAD007B87E5 /* BaekJoon1744.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BaekJoon1744.cpp; sourceTree = "<group>"; };
 		43304A5E25C2F13A0008C9C8 /* 2178-1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "2178-1.cpp"; sourceTree = "<group>"; };
+		43304A6125C2FA240008C9C8 /* 1406-1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1406-1.cpp"; sourceTree = "<group>"; };
 		4334AA1524DD971100B5949E /* BaekJoon1076.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BaekJoon1076.cpp; sourceTree = "<group>"; };
 		4334AA1724DDA0A700B5949E /* BaekJoon1302.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BaekJoon1302.cpp; sourceTree = "<group>"; };
 		4334AA1924DDA53000B5949E /* BaekJoon1764.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BaekJoon1764.cpp; sourceTree = "<group>"; };
@@ -301,6 +302,7 @@
 				43C4DBA524B8BD1B0003C8AE /* Sort */,
 				4384BCE325BB0EEB00D8D4D6 /* 1769-1.cpp */,
 				43304A5E25C2F13A0008C9C8 /* 2178-1.cpp */,
+				43304A6125C2FA240008C9C8 /* 1406-1.cpp */,
 			);
 			path = BaekJoon;
 			sourceTree = "<group>";
@@ -495,7 +497,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43304A5F25C2F13A0008C9C8 /* 2178-1.cpp in Sources */,
+				43304A6225C2FA240008C9C8 /* 1406-1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
